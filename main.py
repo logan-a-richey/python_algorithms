@@ -15,17 +15,17 @@ logging.basicConfig(
     ]
 )
 
-from sorting_algorithms import SortingAlgorithms
-from searching_algorithms import SearchingAlgorithms
-from graph_algorithms import GraphAlgorithms
-from dynamic_programming import DynamicProgramming
-from string_algorithms import StringAlgorithms
-from data_structures import DataStructures
-from math_algorithms import MathAlgorithms
-from greedy_algorithms import GreedyAlgorithms
-from backtracking_algorithms import BacktrackingAlgorithms
-from divide_and_conquer_algorithms import DivideAndConquerAlgorithms
-from misc_algorithms import MiscAlgorithms
+from src.sorting_algorithms import SortingAlgorithms
+from src.searching_algorithms import SearchingAlgorithms
+from src.graph_algorithms import GraphAlgorithms
+from src.dynamic_programming import DynamicProgramming
+from src.string_algorithms import StringAlgorithms
+from src.data_structures import DataStructures
+from src.math_algorithms import MathAlgorithms
+from src.greedy_algorithms import GreedyAlgorithms
+from src.backtracking_algorithms import BacktrackingAlgorithms
+from src.divide_and_conquer_algorithms import DivideAndConquerAlgorithms
+from src.misc_algorithms import MiscAlgorithms
 
 class Main:
     """
